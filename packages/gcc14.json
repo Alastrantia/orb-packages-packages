@@ -1,0 +1,17 @@
+{
+  "name": "gcc14",
+  "author": "gerald@FreeBSD.org",
+  "version": "14.2.0",
+  "description": "GCC, the GNU Compiler Collection, supports a number of languages. This port installs the C, C++, and Fortran front ends as gcc, g++, and gfortran, respectively.",
+  "mirrors": [
+    "https://ftp.gnu.org/gnu/gcc/gcc-14.2.0/",
+    "https://ftpmirror.gnu.org/gcc/gcc-14.2.0/"
+  ],
+  "dependencies": [
+    "binutils",
+    "gmp",
+    "mpc",
+    "mpfr"
+  ],
+  "license": "GPL-3.0"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "bash",
+  "author": "sunpoet@FreeBSD.org",
+  "version": "5.2.37",
+  "description": "Bash is the GNU Project's Bourne Again SHell, a complete implementation of the IEEE POSIX and Open Group shell specification with interactive command line editing, job control on architectures that support it, csh-like features such as history substitution.",
+  "mirrors": [
+    "https://ftp.gnu.org/gnu/bash/",
+    "https://ftpmirror.gnu.org/bash/"
+  ],
+  "dependencies": [
+    "gettext-runtime",
+    "libiconv",
+    "readline"
+  ],
+  "license": "GPL-3.0"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "emacs",
+  "author": "emacs@FreeBSD.org",
+  "version": "29.4",
+  "description": "GNU Emacs is an extensible, customizable, self-documenting real-time display editor. At its core is an interpreter for Emacs Lisp, a dialect of the Lisp programming language with extensions to support text editing.",
+  "mirrors": [
+    "https://ftp.gnu.org/gnu/emacs/",
+    "https://ftpmirror.gnu.org/emacs/"
+  ],
+  "dependencies": [
+    "gnutls",
+    "libxml2",
+    "ncurses",
+    "gettext-runtime",
+    "libiconv"
+  ],
+  "license": "GPL-3.0"
+}

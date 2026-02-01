@@ -1,0 +1,16 @@
+{
+  "name": "vim",
+  "author": "adamw@FreeBSD.org",
+  "version": "9.1.0",
+  "description": "Vim is an improved version of the editor vi, one of the standard text editors on UNIX systems. Vim provides many new features including multiple level undo/redo, command line history, file name completion, block operations, and syntax highlighting.",
+  "mirrors": [
+    "https://github.com/vim/vim/archive/",
+    "https://ftp.nluug.nl/pub/vim/unix/"
+  ],
+  "dependencies": [
+    "gettext-runtime",
+    "libiconv",
+    "ncurses"
+  ],
+  "license": "VIM"
+}

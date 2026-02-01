@@ -1,0 +1,20 @@
+{
+  "name": "postgresql16-server",
+  "author": "pgsql@FreeBSD.org",
+  "version": "16.6",
+  "description": "PostgreSQL is a powerful, open source object-relational database system. It has more than 15 years of active development and a proven architecture that has earned it a strong reputation for reliability, data integrity, and correctness.",
+  "mirrors": [
+    "https://ftp.postgresql.org/pub/source/v16.6/",
+    "https://ftp2.postgresql.org/pub/source/v16.6/"
+  ],
+  "dependencies": [
+    "gettext-runtime",
+    "icu",
+    "libxml2",
+    "libxslt",
+    "openssl",
+    "readline",
+    "zlib"
+  ],
+  "license": "PostgreSQL"
+}

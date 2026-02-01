@@ -1,0 +1,17 @@
+{
+  "name": "git",
+  "author": "git@FreeBSD.org",
+  "version": "2.48.0",
+  "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
+  "mirrors": [
+    "https://mirrors.edge.kernel.org/pub/software/scm/git/",
+    "https://cdn.kernel.org/pub/software/scm/git/"
+  ],
+  "dependencies": [
+    "curl",
+    "expat",
+    "pcre2",
+    "gettext-runtime"
+  ],
+  "license": "GPL-2.0"
+}

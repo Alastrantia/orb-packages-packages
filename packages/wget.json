@@ -1,0 +1,18 @@
+{
+  "name": "wget",
+  "author": "sunpoet@FreeBSD.org",
+  "version": "1.25.0",
+  "description": "GNU Wget is a free software package for retrieving files using HTTP, HTTPS and FTP, the most widely-used Internet protocols. It is a non-interactive commandline tool, so it may easily be called from scripts, cron jobs, terminals without X-Windows support, etc.",
+  "mirrors": [
+    "https://ftp.gnu.org/gnu/wget/",
+    "https://ftpmirror.gnu.org/wget/"
+  ],
+  "dependencies": [
+    "ca_root_nss",
+    "libidn2",
+    "libunistring",
+    "openssl",
+    "pcre2"
+  ],
+  "license": "GPL-3.0"
+}

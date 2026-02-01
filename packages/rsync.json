@@ -1,0 +1,18 @@
+{
+  "name": "rsync",
+  "author": "mat@FreeBSD.org",
+  "version": "3.4.0",
+  "description": "rsync is a file transfer program capable of efficient remote update via a fast differencing algorithm. rsync is widely used for backups and mirroring and as an improved copy command for everyday use.",
+  "mirrors": [
+    "https://download.samba.org/pub/rsync/src/",
+    "https://rsync.samba.org/ftp/rsync/src/"
+  ],
+  "dependencies": [
+    "lz4",
+    "openssl",
+    "popt",
+    "xxhash",
+    "zstd"
+  ],
+  "license": "GPL-3.0"
+}

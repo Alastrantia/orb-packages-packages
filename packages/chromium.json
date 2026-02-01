@@ -1,0 +1,34 @@
+{
+  "name": "chromium",
+  "author": "chromium@FreeBSD.org",
+  "version": "132.0.6834.110",
+  "description": "Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all Internet users to experience the web.",
+  "mirrors": [
+    "https://commondatastorage.googleapis.com/chromium-browser-official/",
+    "https://gsdview.appspot.com/chromium-browser-official/"
+  ],
+  "dependencies": [
+    "alsa-lib",
+    "atk",
+    "cups",
+    "dbus",
+    "ffmpeg",
+    "flac",
+    "fontconfig",
+    "freetype2",
+    "gtk3",
+    "harfbuzz",
+    "libdrm",
+    "libevent",
+    "libxslt",
+    "mesa-libs",
+    "ninja",
+    "node",
+    "nss",
+    "opus",
+    "pulseaudio",
+    "re2",
+    "snappy"
+  ],
+  "license": "BSD-3-Clause"
+}

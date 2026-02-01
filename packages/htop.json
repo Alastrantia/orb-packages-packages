@@ -1,0 +1,14 @@
+{
+  "name": "htop",
+  "author": "ehaupt@FreeBSD.org",
+  "version": "3.3.0",
+  "description": "htop is an interactive process viewer for Unix systems. It is a text-mode application (for console or X terminals) and requires ncurses. It aims to be a better 'top' with more features and better visualization.",
+  "mirrors": [
+    "https://github.com/htop-dev/htop/releases/download/3.3.0/",
+    "https://htop.dev/releases/3.3.0/"
+  ],
+  "dependencies": [
+    "ncurses"
+  ],
+  "license": "GPL-2.0"
+}

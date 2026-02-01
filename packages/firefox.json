@@ -1,0 +1,26 @@
+{
+  "name": "firefox",
+  "author": "gecko@FreeBSD.org",
+  "version": "147.0.2",
+  "description": "Web browser based on the browser portion of Mozilla. Firefox is small, fast and easy to use, and offers many advanced features including popup blocking, tabbed browsing, live bookmarks, extensions, themes, and improved security.",
+  "mirrors": [
+    "https://archive.mozilla.org/pub/firefox/releases/147.0.2/source/",
+    "https://download.cdn.mozilla.net/pub/firefox/releases/147.0.2/source/"
+  ],
+  "dependencies": [
+    "nspr",
+    "nss",
+    "libevent",
+    "harfbuzz",
+    "graphite2",
+    "png",
+    "dav1d",
+    "libvpx",
+    "ffmpeg",
+    "rust",
+    "gmake",
+    "llvm19",
+    "node24"
+  ],
+  "license": "MPL-2.0"
+}

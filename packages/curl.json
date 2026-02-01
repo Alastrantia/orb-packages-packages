@@ -1,0 +1,17 @@
+{
+  "name": "curl",
+  "author": "sunpoet@FreeBSD.org",
+  "version": "8.11.1",
+  "description": "curl is a command line tool for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMB, SMTP, SMTPS, TELNET and TFTP.",
+  "mirrors": [
+    "https://curl.haxx.se/download/",
+    "https://github.com/curl/curl/releases/download/"
+  ],
+  "dependencies": [
+    "ca_root_nss",
+    "libnghttp2",
+    "libssh2",
+    "openssl"
+  ],
+  "license": "MIT"
+}
